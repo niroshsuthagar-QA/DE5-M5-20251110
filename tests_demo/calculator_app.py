@@ -16,3 +16,5 @@ myCalc = Calculator(2,4)
 
 # Applies the method get_product
 print(myCalc.get_product())
+
+# Notes
