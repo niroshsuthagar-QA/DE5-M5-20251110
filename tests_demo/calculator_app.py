@@ -11,10 +11,11 @@ class Calculator:
     def get_quotient(self):
         return self.a / self.b
 
-# Instantiates a calculator
-myCalc = Calculator(2,4)
+if __name__ == "__main__":
+    # Instantiates a calculator
+    myCalc = Calculator(2,4)
 
-# Applies the method get_product
-print(myCalc.get_product())
+    # Applies the method get_product
+    print(myCalc.get_product())
 
-# Notes
+    # Notes
