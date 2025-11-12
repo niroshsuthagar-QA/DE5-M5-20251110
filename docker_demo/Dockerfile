@@ -1,0 +1,6 @@
+FROM python:3.12.12-slim
+WORKDIR /app
+COPY . /app
+ENTRYPOINT [ "python", "level_1_demo.py" ]
+
+#TASK: Update this repo or create a new one to use the calculator app from earlier to output 2*32
