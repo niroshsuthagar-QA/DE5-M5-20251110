@@ -17,3 +17,5 @@ docker run container-name
 docker images # for all images
 docker ps -a #for all containers
 ```
+
+Note: .yml file for CI demo in the repo. 
